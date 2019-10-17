@@ -1,0 +1,26 @@
+
+h1{
+  color: #345693;
+  text-align: center;
+}
+
+body, canvas {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+}
+
+.input{
+  text-align: center;
+  color: silver;
+  font-weight: bold;
+}
+#output{
+  background-color: teal;
+  border: solid;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  
+}
