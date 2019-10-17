@@ -9,21 +9,29 @@
 </head>
 <body>
 
-    <h1>Math Time Explosion</h1>
+    <h1>Explosion Through Numbers</h1>
+    <br>
        <form action="#">
+          <p class = "input" >
+          Pick a conversion type <select id="operation">
+              <option value="BMI">BMI</option>
+              <option value="In2Ft">Inches - Feet</option>
+            </select>
       <p class = "input" >
-     
-      Number 1: <input id = "num-1"></input>
+        <select id="operation">
+          <option value=""> </option>
+          <option value="BMI">Weight</option>
+          <option value="In2Ft">Inches</option>
+        </select>
+      <input id = "w"></input>
       <br></br>
-      Number 2: <input id = "num-2" ></input>
+      <p class = "input">
+        <select id="operation">
+          <option value="BMI">Height in Inches</option>
+        </select>
+        <input id = "h"></input>
       <br></br>
-      <select id="operation">
-        <option value="add">add</option>
-        <option value="subtract">subtract</option>
-        <option value="multiply">multiply</option>
-        <option value="divide">divide</option>
-      </select>
-      <input type="submit" value="Run it"/>
+      <input type="submit" value="Click to Explode"/>
     </p>
     <p id="output">
      Your answer is...  
