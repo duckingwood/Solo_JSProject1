@@ -1,12 +1,12 @@
-// solo project calculator
-
+// Matthew Wood Project Calculator
+// This project is best viewed in Google Chrome
 const calculator = {
 BMI(a, b) {
     return (a/(b * b)) * 703;
   },
-  In2Ft(a, b) {
+  in2Ft(a, b) {
     if (b > 0 || 0 < b) {
-      alert("invalid entry in second box, box should be set to 0")
+      alert("Invalid entry in second text box. Text box should be set to 0")
     }else
     return (a/12); 
   }
@@ -22,7 +22,7 @@ const output = document.querySelector("#output");
 
 // use an anonymous callback function as the 2nd argument
 form.addEventListener("submit", function(event) {
-  // Prevent the default browser behavior DON'T submit
+// Prevent the default browser behavior DON'T submit
   event.preventDefault();
 
   output.textContent = calculator[select.value](num1.value, num2.value);
